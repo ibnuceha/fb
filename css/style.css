@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}input[type=text], textarea{ outline:none;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}.clearfix {_display:inline-block;}.clearfix {zoom:1;_display:block;}
+
+body {font:13px/21px 'Droid Serif', serif;min-width:100px;background:url(../images/body.jpg) center top no-repeat #d9d9d9;color:#fff;}
+.main {width:1000px;margin:0 auto;padding:0;position:relative;}
+.wrapper {position:relative;width:100%;overflow:hidden;}
+h3 {
+	font-family: 'Voltaire', sans-serif;
+	font-size:30px;
+	line-height:36px;
+	text-shadow:0 1px 4px rgba(0,0,0,.9);
+	text-transform:uppercase;
+	font-weight:normal;
+}
+h3 a {
+	color:#101010;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+h3 a:hover {
+	color:#da6798;
+}
+a {color:#fff; outline:none; text-decoration:none;}
+a:hover {color:#ec5293;}
+
+.logo {
+	margin-bottom:45px;
+	padding:95px 0 35px;
+}
+.logo a {
+	display:block;
+	width:255px;
+	height:170px;
+	background:url(../images/logo.png) left top no-repeat;
+	text-indent:-999px;
+	overflow:hidden;
+	position:relative;
+	margin-left:-127px;
+	left:50%;
+}
+
+.col-1 {
+	float:left;
+	text-align:center;
+}
+.indent_right {margin-right:13px;}
+.indent_bottom {padding-bottom:100px;}
+.indent {padding:0 45px;}

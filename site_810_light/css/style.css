@@ -1,0 +1,365 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400italic);
+@import url(http://fonts.googleapis.com/css?family=Mrs+Saint+Delafield);
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}input[type=text], textarea{ outline:none;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}.clearfix {_display:inline-block;}.clearfix {zoom:1;_display:block;}
+
+body {font:13px/21px 'Droid Serif', serif;min-width:768px;background:url(../images/body.gif) center top repeat;color:#fff;}
+
+a {color:#222; outline:none; text-decoration:underline;}
+a:hover {color:#ec5293;}
+
+p {padding-bottom:30px;}
+
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;font-style:normal;font-family: 'Fjalla One', sans-serif;text-transform:uppercase;line-height:1.3em;color:#242424;}
+h3 {font-size:30px;}
+h6 {font-size:14px;line-height:21px;color:#bdbdbd;}
+h3 span {display:block;}
+/* Global Structure---------------------------------------- */
+
+#wrapper {position:relative;width:768px;margin:0 auto;overflow:hidden;visibility:hidden;position:relative;}
+.main {width:768px;margin:0 auto;padding:0;}
+#layout {position:relative;}
+
+/* Header ------------------------------------*/
+
+.logo {
+	margin-bottom:45px;
+	padding:32px 0 0;
+}
+.logo a {
+	display:block;
+	width:255px;
+	height:170px;
+	background:url(../images/logo.png) left top no-repeat;
+	text-indent:-999px;
+	overflow:hidden;
+	position:relative;
+	margin-left:-127px;
+	left:50%;
+}
+#header_top {
+	background:url(../images/body.gif) center top repeat;
+	position:relative;
+	z-index:97;
+	overflow:hidden;
+	position:absolute;
+	visibility:hidden;
+	top:0px;
+	width:768px;
+}
+
+/* Layout ------------------------------------*/
+
+.col {
+	position:fixed;
+	width:256px;
+	overflow:hidden;
+	left:0;
+}
+
+.indent {padding:40px;position:relative;}
+.indent_top {padding-top:50px;}
+.first_item {margin-top:322px;}
+
+/* Navigation ------------------------------------*/
+.nav {
+	background:url(../images/nav_border.gif) left top repeat-x;
+}
+.nav_list {
+	overflow:hidden;
+	font-family: 'Fjalla One', sans-serif;
+	position:relative;
+	left:50%;
+	margin-left:-152px;;
+}
+.nav_list li {
+	float:left;
+	font-size:14px;
+	line-height:17px;
+	text-transform:uppercase;
+	text-shadow:0 1px rgba(0,0,0,.1)
+}
+.nav_list li a {
+	text-decoration:none;
+	display:inline-block;
+	color:#413c3c;
+	padding:29px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.nav_list li a:hover {
+	background:#ec5293;
+	color:#fff;
+}
+
+#short-menu {
+	width:768px;
+	margin:0 auto;
+	position:fixed;
+	top:-73px;
+	z-index:9999;
+	text-align:left;
+	background:url(../images/body.gif) center top repeat;
+}
+#short-menu div {
+	width:100%;
+	height:73px;
+}
+
+/* Lists ------------------------------------*/
+.soc_list {
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.soc_list li {
+	float:left;
+	margin-left:10px;
+}
+.soc_list li:first-child {
+	margin-left:30px;
+}
+.soc_list li a {
+	width:40px;
+	height:40px;
+	overflow:hidden;
+	display:block;
+	position:relative;
+}
+.soc_list li a img {
+	position:absolute;
+	top:0px;
+	left:0;
+}
+.soc_list li a:hover img {
+	top:-40px;
+}
+
+/* Fonts ------------------------------------*/
+
+.style_1 {
+	font-size:24px;
+	line-height:30px;
+	padding-bottom:30px;
+}
+.style_2 {
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size:36px;
+	line-height:42px;
+}
+
+/* buttons/links ------------------------------------*/
+
+.link-1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size:14px;
+	line-height:17px;
+	text-transform:uppercase;
+	text-decoration:underline;
+	color:#ec5293;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.link-1:hover {
+	color:#2b2b2b;
+}
+
+/* boxes ------------------------------------*/
+
+.image_item {
+	position:relative;
+	width:256px;
+	height:500px;
+}
+.image_item img {
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	opacity:1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.image_info {
+	background:url(../images/image_info_bg.png) center top repeat;
+	position:absolute;
+	z-index:9;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	opacity:0;
+	padding:30px 20px 0 40px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.image_info h3 {color:#fff;}
+.image_info .link-1:hover {color:#fff;}
+.image_item:hover .image_info {
+	opacity:1;
+}
+.image_item:hover img {
+	opacity:0.7;
+}
+
+.time {
+	display:block;
+	font-size:12px;
+	font-style:normal;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom:35px;
+}
+
+#bottom {
+	width:768px;
+	margin:0 auto;
+	position:relative;
+	z-index:3000;
+	background:url(../images/body.gif) center top repeat;
+	visibility:hidden;
+	padding:0;
+	color:#bdbdbd;
+}
+#bottom h3 {
+	font-family: 'Voltaire', sans-serif;
+	padding-bottom:25px;
+}
+
+.info {
+	padding:40px 0;
+	float:left;
+	width:256px;
+	text-align:center;
+	font-size:12px;
+	line-height:24px;
+	color:#bdbdbd;
+}
+.info a {
+	text-decoration:underline;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.form-wrapper {
+	float:right;
+	width:432px;
+	text-align:center;
+	padding:40px;
+	background:url(../images/border_2.png) left top repeat-y;
+}
+
+#know-more {
+	position:absolute;
+	width:768px;
+	padding:0px;
+	background:url(../images/know_more.png) center top repeat;
+	z-index:99;
+	overflow:hidden;
+	visibility:hidden;
+	font-style:italic;
+}
+#know-more h3 {color:#fff;}
+#know-more .km-close {
+	display:block;
+	background:url(../images/close.png) left top no-repeat;
+	width:15px;
+	height:15px;
+	overflow:hidden;
+	text-indent:-999px;
+	position:absolute;
+	top:55px;
+	right:50px;
+}
+
+.border-1 {
+	background:url(../images/border_1.png) left bottom repeat-x;
+	padding-bottom:33px;
+	margin-bottom:42px;
+}
+
+/***** contact form *****/
+#message_form {
+	position:relative;
+	text-align:left;
+	width:432px;
+	padding-top:15px;
+}
+#message_form fieldset {
+	border:none;
+	padding:0;
+	}			
+		#message_form label {
+			display:block;
+			min-height:80px;
+			position:relative;
+		}
+		#message_form .email, #message_form .name {
+			float:left;
+		}
+		#message_form .name {
+			margin-right:18px;
+		}
+		#message_form .label_name {
+			display:block;
+		}
+		#message_form label.message {
+			height:200px;
+		}
+#message_form label input, #message_form textarea {
+    background:#ececec;
+    border:1px solid #e3e3e3;
+    color: #2d2d2d;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    outline: medium none;
+    overflow: hidden;
+    padding:9px 15px 11px;
+    resize: none;
+    vertical-align: middle;
+}
+#message_form label input {
+    height:17px;
+    vertical-align: middle;
+    width:175px;
+	float:left;
+}
+#message_form textarea {
+    height:120px;
+    overflow: auto;
+    width: 400px;
+}
+		#message_form .area .error { float:none;}
+		#message_form .label_name {
+			line-height:34px;
+		}
+		#message_form a {cursor:pointer;}
+			#message_form .success {display:none;background: none;box-shadow: none;color:#EC5293;position:absolute;top:5px;left:5px;font-size:13px;text-transform:uppercase;}
+			#message_form .error,
+			#message_form .empty {
+				position:absolute;
+				top:75px;
+				left:5px;
+				color:#f00;
+				font-size:10px;
+				line-height:12px;
+				display:none;
+				overflow:hidden;
+			}
+			#message_form .message .error,
+			#message_form .message .empty {
+				top:180px;
+			}
+	.buttons-wrapper {position:relative;text-align:center;}
